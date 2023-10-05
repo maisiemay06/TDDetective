@@ -1,0 +1,19 @@
+{
+    "devDependencies": {
+        "jest": "^29.7.0"
+    },
+    "name": "unit-test-exercise",
+    "version": "1.0.0",
+    "main": "index.js",
+    "directories": {
+        "test": "tests"
+    },
+    "scripts": {
+        "test": "jest --coverage"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "type": "module"
+}
