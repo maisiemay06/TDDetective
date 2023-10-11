@@ -17,7 +17,7 @@ test('The case with only one suspect', () => {
 
     let detective = new Detective();
 
-    expect(professorPan).toBe(detective.solve(crime));
+    expect(detective.solve(crime)).toBe(professorPan);
 });
 
 test('The case with two suspects in the same location', () => {
@@ -37,7 +37,7 @@ test('The case with two suspects in the same location', () => {
 
     let detective = new Detective();
 
-    expect(professorPan).toBe(detective.solve(crime));
+    expect(detective.solve(crime)).toBe(professorPan);
 });
 
 test('The case where three suspects held the murder weapon', () => {
@@ -62,7 +62,7 @@ test('The case where three suspects held the murder weapon', () => {
 
     let detective = new Detective();
 
-    expect(sergeantSaucepan).toBe(detective.solve(crime));
+    expect(detective.solve(crime)).toBe(sergeantSaucepan);
 });
 
 test('The case with a Witness', () => {
@@ -81,5 +81,5 @@ test('The case with a Witness', () => {
 
     let detective = new Detective();
 
-    expect(wizardWok).toBe(detective.solve(crime));
+    expect(detective.solve(crime)).toBe(wizardWok);
 });
