@@ -12,6 +12,8 @@ Add `solve()` to the detective, you should be able to solve the first three case
 
 Add a `Witness` class to help the detective out, the Witness should be able to take a list of arguments to describe what they saw.
 
+This task will require you to refactor more than just the detective, you may even need to refactor the tests. 
+
 ## Third Task
 
 Make the crimes tougher, the detective smarter.
